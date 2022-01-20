@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: var(--theird-color);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+:root {
+    --primary-color: #00A2EA;
+    --secondary-color: #26272A;
+    --theird-color: #4A4A4A;
+    --fourth-color: #696767;
+    --font-color: #ffffff;
+  }
+img{
+    height: 150px;
+    border-radius: 50%;
+}
+.img{
+    height: 100px;
+    margin-left: 50px;
+}
+.questions{
+    margin: 3rem auto;
+    width: 1013px;
+    height: 500px;
+    padding: 2rem;
+    background: var(--secondary-color);
+    cursor: default;
+    border-radius: 1rem;
+}
+.questions ul{
+    list-style: none;
+}
+#question{
+    margin-bottom: 40px;
+    color: var(--font-color);
+}
+.option{
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+    border-bottom: none;
+    width: 786px;
+    height: 50px;
+    background: var(--theird-color);
+    color: var(--font-color);
+    border-radius: 20px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.option:hover{
+    background-color: var(--fourth-color);
+}
+span{
+    display: block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+}
+#answer{
+    margin-top: 2.5rem;
+}
+#stat{
+    margin-top: 1.5rem;
+    color: var(--primary-color);
+}
+.buttons{
+    text-align: center;
+}
+button{
+    height: 58px;
+    width: 162px;
+    border-radius: 15px;
+    display: block;
+    background-color:var(--primary-color) ;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+button:hover{
+    background: var(--fourth-color);
+}
+#scoreboard,#answerBank{
+    width: 20rem;
+    background: var(--secondary-color);
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 5rem;
+    display: none;
+    border-radius: 20px;
+}
+#scoreboard h2{
+    color: var(--font-color);
+}
+#score-title{
+    margin: 1rem 0;
+}
+#score-btn,#check-answer{
+    margin-top: 10px;
+    
+}
+#score{
+    font-size: 2.5rem;
+}
+#answerBank li{
+    text-align: left;
+    margin-bottom: 0.2rem;
+    font-size: larger;
+}
+#answerBank h2{
+    color: var(--font-color);
+}
+#answers{
+    margin-top: 10px;
+    color: var(--font-color);
+}
